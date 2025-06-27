@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/all.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="signup">
+      <div class="container">
+        <div class="signup-form">
+          <h1>Smart Login System</h1>
+          <!-- <form> -->
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control my-3"
+              id="newusername"
+              onclick="signUpValidation(this)"
+              aria-describedby="emailHelp"
+              placeholder="Enter your name "
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="newuseremail"
+              onclick="signUpValidation(this)"
+              placeholder="Enter your email "
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="password"
+              class="form-control"
+              id="newuserpassword"
+              onclick="signUpValidation(this)"
+              placeholder="Enter your password "
+            />
+          </div>
+          <div class="msg"><span class="d-none" id="signupmsg"></span></div>
+          <!-- <div class="falsemsg">    <span id="falsesignupmsg">Success</span></div> -->
+          <button type="submit" class="w-100" id="signupbtn">Sign up</button>
+          <!-- </form> -->
+          <div class="sign-in">
+            <span>You have an account? <a href="signin.html">Signin</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

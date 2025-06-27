@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signup {
+  width: 100%;
+  height: 100vh;
+  background-color: #24353f;
+  padding-top: 40px;
+}
+
+.signup .container {
+  /* background-color: #17a2b8; */
+  width: 55%;
+  height: 56vh;
+  padding-block: 40px;
+  margin: auto;
+  box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.7);
+}
+
+.signup .signup-form {
+  /* background-color: antiquewhite; */
+  width: 94%;
+  margin: auto;
+}
+
+.signup .signup-form h1 {
+  text-align: center;
+  padding-bottom: 8px;
+  color: #17a2b8;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.signup .signup-form .mb-3 input {
+  color: white;
+  padding-block: 6px;
+  margin-block: 6px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.signup .signup-form .mb-3 input::placeholder {
+  color: #b6b6b6;
+}
+
+#signupbtn {
+  border: 1px solid #17a2b8;
+  border-radius: 6px;
+  padding: 6px;
+  color: #17a2b8;
+  background-color: transparent;
+  transition: background-color 0.7s;
+}
+
+#signupbtn:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.signup .signup-form .sign-in {
+  padding-top: 16px;
+  text-align: center;
+}
+.signup .signup-form .sign-in span {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.signup .signup-form .sign-in span a {
+  text-decoration: none;
+  color: white;
+}
+
+.signup .signup-form .sign-in span a:hover {
+  text-decoration: underline;
+}
+
+.msg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#signupmsg{
+padding-bottom: 10px;
+
+}
+
+/* .falsemsg{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#falsesignupmsg{
+padding-bottom: 10px;
+color: red;
+} */
+
+/*  sign in page      */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signin {
+  width: 100%;
+  height: 100vh;
+  background-color: #24353f;
+  padding-top: 40px;
+}
+
+.signin .container {
+  /* background-color: #17a2b8; */
+  width: 57%;
+  height: 48vh;
+  padding-block: 40px;
+  margin: auto;
+  box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.7);
+}
+
+.signin .signin-form {
+  /* background-color: antiquewhite; */
+  width: 94%;
+  margin: auto;
+}
+
+.signin .signin-form h1 {
+  text-align: center;
+  padding-bottom: 8px;
+  color: #17a2b8;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.signin .signin-form .mb-3 input {
+  color: white;
+  padding-block: 6px;
+  margin-block: 6px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.signin .signin-form .mb-3 input::placeholder {
+  color: #b6b6b6;
+}
+
+/*  btn*/
+#loginbtn {
+  border: 1px solid #17a2b8;
+  border-radius: 6px;
+  padding: 6px;
+  color: #17a2b8;
+  background-color: transparent;
+  transition: background-color 0.7s;
+}
+
+#loginbtn:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.signin .signin-form .sign-up {
+  padding-top: 16px;
+  text-align: center;
+}
+.signin .signin-form .sign-up span {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.signin .signin-form .sign-up span a {
+  text-decoration: none;
+  color: white;
+}
+
+.signin .signin-form .sign-up span a:hover {
+  text-decoration: underline;
+}
+
+
+#loginmsg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/*   home style */
+
+
+.home{
+  background-color: #24353F;
+  width: 100%;
+  height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.home .navbar{
+  display: flex;
+  justify-content: space-between;
+  box-shadow:10px 10px 15px 0px rgba(0, 0, 0, 0.4);
+  width: 100%;
+
+  position: fixed;
+  top: 0px;
+  z-index: 99999;
+} 
+
+.home .navbar #title{
+text-decoration: none;
+color: white;
+font-size:20px;
+font-weight:400;
+margin-left: 180px;
+}
+
+.home .navbar #Logout{
+  text-decoration: none;
+background-color: #24353F;
+border: 1px solid #FFC107;
+border-radius: 4px;
+transition: background-color 0.7s;
+color: gray;
+padding: 8px;
+margin-right: 180px;
+}
+
+.home .navbar #Logout:hover{
+  background-color: #FFC107;
+}
+
+.home .user-text{
+color: #17A2B8;
+padding-block: 60px;
+padding-inline: 120px;
+box-shadow:10px 10px 15px 6px rgba(0, 0, 0, 0.4);
+} 
+
+.home .user-text h1{
+
+
+
+
+  
+}
